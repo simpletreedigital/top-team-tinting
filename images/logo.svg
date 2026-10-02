@@ -1,31 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 170" width="620" height="170">
   <defs>
-    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFD24C"/>
-      <stop offset="45%" stop-color="#FF8A3D"/>
-      <stop offset="100%" stop-color="#E8497A"/>
-    </linearGradient>
     <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0E7490"/>
-      <stop offset="100%" stop-color="#0FA3A3"/>
+      <stop offset="55%" stop-color="#0FA3A3"/>
+      <stop offset="100%" stop-color="#FFD24C"/>
     </linearGradient>
-    <clipPath id="shieldClip">
-      <path d="M100 10 L182 38 V108 C182 158 146 192 100 210 C54 192 18 158 18 108 V38 Z"/>
-    </clipPath>
   </defs>
 
-  <path d="M100 6 L186 35 V108 C186 161 148 197 100 216 C52 197 14 161 14 108 V35 Z" fill="#081012" stroke="#FFD24C" stroke-width="4"/>
-  <g clip-path="url(#shieldClip)">
-    <circle cx="100" cy="88" r="42" fill="url(#sunset)"/>
-    <path d="M10 140 Q 55 112 100 140 T 190 140 L190 216 L10 216 Z" fill="url(#ocean)"/>
-    <path d="M10 156 Q 55 132 100 156 T 190 156" fill="none" stroke="#DFF6F6" stroke-width="5" stroke-linecap="round" opacity=".85"/>
-    <path d="M10 170 Q 55 148 100 170 T 190 170" fill="none" stroke="#DFF6F6" stroke-width="4" stroke-linecap="round" opacity=".6"/>
-  </g>
-  <path d="M100 6 L186 35 V108 C186 161 148 197 100 216 C52 197 14 161 14 108 V35 Z" fill="none" stroke="#0a0a0a" stroke-width="2" opacity=".35"/>
-  <text x="100" y="118" text-anchor="middle" font-family="'Bungee',sans-serif" font-size="30" fill="#FFFFFF" stroke="#0a0a0a" stroke-width="2" paint-order="stroke">TOP</text>
-  <text x="100" y="150" text-anchor="middle" font-family="'Bungee',sans-serif" font-size="22" fill="#FFFFFF" stroke="#0a0a0a" stroke-width="2" paint-order="stroke">TEAM</text>
+  <circle cx="78" cy="85" r="74" fill="#081012" stroke="url(#ocean)" stroke-width="5"/>
+  <path d="M10 96 Q 44 66 78 96 T 146 96" fill="none" stroke="#FFD24C" stroke-width="9" stroke-linecap="round"/>
+  <path d="M16 116 Q 48 90 78 116 T 140 116" fill="none" stroke="#0FA3A3" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+  <path d="M22 134 Q 50 112 78 134 T 134 134" fill="none" stroke="#E8497A" stroke-width="7" stroke-linecap="round" opacity=".8"/>
 
-  <text x="215" y="100" font-family="'Bungee',sans-serif" font-size="48" fill="#FFD24C" stroke="#0a0a0a" stroke-width="2.5" paint-order="stroke">TOP TEAM</text>
-  <text x="215" y="146" font-family="'Bungee',sans-serif" font-size="36" fill="#E8497A" stroke="#0a0a0a" stroke-width="2.5" paint-order="stroke">TINTING</text>
-  <text x="215" y="174" font-family="'Inter',sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#0FA3A3">SERVING KAUA'I SINCE 2013</text>
+  <text x="178" y="92" font-family="'Bungee',sans-serif" font-size="54" fill="#FFFFFF">TOP TEAM</text>
+  <text x="178" y="146" font-family="'Bungee',sans-serif" font-size="44" fill="#FFD24C">TINTING</text>
 </svg>

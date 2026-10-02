@@ -70,7 +70,7 @@ p{color:rgba(238,246,245,.82);margin-bottom:16px;font-size:1rem}
 .area-pill{background:var(--bg2);border:1px solid var(--border);border-radius:30px;padding:10px 18px;font-size:.875rem;font-weight:600;color:rgba(238,246,245,.8)}
 .area-pill:hover{border-color:rgba(255,210,76,.5);color:#fff}
 /* how it works */
-.how-it-works{background:linear-gradient(rgba(8,16,18,.92),rgba(8,16,18,.92)),url('/images/mike-tinting-truck-kauai.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
+.how-it-works{background:linear-gradient(rgba(8,16,18,.92),rgba(8,16,18,.92)),url('/images/mercedes-gle-clean.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
 /* cta strip */
 .cta-strip{background:linear-gradient(100deg,rgba(255,210,76,.92),rgba(255,138,61,.9) 55%,rgba(232,73,122,.9));padding:56px 0}
 .cta-strip h2{color:#0a0a0a}
